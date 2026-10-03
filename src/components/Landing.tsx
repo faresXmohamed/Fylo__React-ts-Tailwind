@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import {useEffect , useRef} from "react";
+import { useRef} from "react";
 import landingImg from '../assets/images/illustration-intro.png'
 import curvyDesktop from "../assets/images/bg-curvy-desktop.svg"
 

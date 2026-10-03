@@ -10,5 +10,5 @@ export default defineConfig({
     babel({ presets: [reactCompilerPreset()] }),
     tailwindcss(),
   ],
-
+  base: '/Fylo__React-ts-Tailwind/',
 })
