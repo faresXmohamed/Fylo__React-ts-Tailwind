@@ -1,11 +1,10 @@
 import { Link } from 'react-router-dom'
-import { useRef} from "react";
 import landingImg from '../assets/images/illustration-intro.png'
 import curvyDesktop from "../assets/images/bg-curvy-desktop.svg"
 
 
 const Landing = () => {
-  const landingRef=useRef<HTMLImageElement | null>(null);
+
   return (
     <section className="pt-[120px] flex-center flex-col bg-[#1c2230]">
         <div>
